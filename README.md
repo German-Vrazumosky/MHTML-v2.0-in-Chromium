@@ -16,6 +16,9 @@ https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/rende
 
 I would like to see MHTML v2.0 support added to Chromium and Google Chrome.
 
+## Links
+- [MHTML](https://en.wikipedia.org/wiki/MHTML)
+
 ---
 
 Ru:
@@ -34,3 +37,6 @@ third_party/blink/renderer/platform/mhtml/mhtml_archive.cc
 https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/platform/mhtml/mhtml_archive.cc
 
 Хотелось бы, чтобы поддержку MHTML v2.0 добавили в Chromium и Google Chrome.
+
+## Ссылки
+- [MHTML](https://ru.wikipedia.org/wiki/MHTML)

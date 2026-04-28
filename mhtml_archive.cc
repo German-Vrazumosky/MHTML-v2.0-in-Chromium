@@ -161,7 +161,7 @@ void QuotedPrintableEncode(base::span<const char> input,
     }
 */
 
-		requires_encoding = false; // For MHTML v2.0 not need encoding, because Unicode used, therefore it always false.
+    requires_encoding = false; // For MHTML v2.0 not need encoding, because Unicode used, therefore it always false.
     // Finally, insert the actual character(s).
     if (requires_encoding) {
       out.push_back('=');

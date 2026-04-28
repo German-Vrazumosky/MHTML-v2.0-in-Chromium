@@ -6,7 +6,7 @@ Who owns the MHTML (MIME HTML) markup language, and why isn't anyone developing 
 - Add Unicode so that non-English content text isn't encoded, but left as is;
 - Remove the 80-character (76 actual) line limit;
 - Remove the line limit, line break, and line break with the "=" character;
-- Make the EOL (line break) in Unix style - "\n" instead of the Windows style = "\r\n".
+- Make the EOL (line break) in Unix style - "\n" instead of the Windows style - "\r\n".
 
 The changes are simple, but very important, because they improve the readability of the document code and reduce its size, which is very important.
 
@@ -28,7 +28,7 @@ Ru:
 - добавить Unicode, чтобы текст контента на отличном от английского языке не кодировался, а оставался как есть;
 - убрать ограничение строки в 80 (76 реальных) симвлов;
 - убрать лимит строки, разрыв и перенос строки символом "=";
-- EOL (перенос строки) сделать в Unix стиле - "\n", вместо стиля Windows = "\r\n".
+- EOL (перенос строки) сделать в Unix стиле - "\n", вместо стиля Windows - "\r\n".
 
 Изменения простые, но очень важные, потому что улучшат читаемость кода документа и уменьшат его размер, что очень важно.
 

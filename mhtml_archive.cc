@@ -137,7 +137,7 @@ void QuotedPrintableEncode(base::span<const char> input,
     if (!is_last_character)
       length_of_encoded_character += 1;  // + 1 for the = (soft line break).
 
-/*	// Here line break while line limit reached. For MHTML v2.0 not need it.
+/*	// Here line break when line limit reached. For MHTML v2.0 not need it, therefore I added this to the comment.
     // Insert a soft line break if necessary.
     size_t max_line_length_for_encoded_content = kMaximumLineLength;
     if (is_header) {
@@ -161,8 +161,9 @@ void QuotedPrintableEncode(base::span<const char> input,
     }
 */
 
+		requires_encoding = false; // For MHTML v2.0 not need encoding, because Unicode used, therefore it always false.
     // Finally, insert the actual character(s).
-    if (/* requires_encoding */ false) { // For MHTML v2.0 not need encoding, because Unicode, therefore always false.
+    if (requires_encoding) {
       out.push_back('=');
       out.push_back(UpperNibbleToAsciiHexDigit(current_character));
       out.push_back(LowerNibbleToAsciiHexDigit(current_character));
